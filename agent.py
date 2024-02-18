@@ -2,7 +2,6 @@ import torch
 import random
 import numpy as np
 from collections import deque
-import game
 from game import SnakeGameAI, Direction, Point
 from model import Linear_QNet, QTrainer
 from helper import plot
@@ -65,8 +64,8 @@ class Agent:
             game.food.x < game.head.x,  # food left
             game.food.x > game.head.x,  # food right
             game.food.y < game.head.y,  # food up
-            game.food.y > game.head.y,  # food down
-        ]
+            game.food.y > game.head.y  # food down
+            ]
 
         return np.array(state, dtype= int)
         

@@ -5,7 +5,7 @@ from collections import namedtuple
 import numpy as np
 
 BLOCK_SIZE = 20
-SPEED = 20
+SPEED = 40
 pygame.init()
 font = pygame.font.SysFont('Arial', 25)
 
