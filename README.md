@@ -6,8 +6,8 @@ This is a simple implementation of the classic Snake game using Python, the Pyga
 
 ## Getting Started
 
-1. **Clone the repository**: `git clone https://github.com/yourusername/snake-game.git`
-2. **Install Pygame**: `pip install pygame`
+1. **Clone the repository**: `git clone https://github.com/Jathin04Jan/Snake-game--Re-enforcement-learning.git`
+2. **Install Packages**: `pip install pygame`, `pip3 install torch torchvision` and `pip3 install matplotlib ipython`
 3. **Run the game**: `python agent.py`
 
 ## Features
@@ -18,13 +18,9 @@ This is a simple implementation of the classic Snake game using Python, the Pyga
 - **Game Over**: The game ends if the snake collides with the walls or itself.
 - **Game Loop**: The game loop keeps the game running until the player loses or quits.
 
-## Screenshots
-
-![Gameplay Screenshot](screenshots/gameplay.png)
-
 ## Known Issues
 
-- Occasionally, the food might spawn in a location that is inaccessible to the snake, leading to a game over.
+- Occasionally, snake gets stuck in a loop.
 
 ## Future Enhancements
 
@@ -43,21 +39,3 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 Feel free to customize this template to better fit your project's needs!
-
-
-
-
-
-
-
-This code demonstrate how you can use re-enforcement learning to create an ai which can play the popular snake game.
-
-
-For this to work run the following comands inside your project environment:
-
-pip3 install torch torchvision
-
-pip3 install pygame
-
-pip3 install matplotlib ipython
-
